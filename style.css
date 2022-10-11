@@ -330,3 +330,28 @@ section .title::after{
         font-size: 27px;
     }
 }
+
+
+/* scroll bar style*/
+/* width */
+::-webkit-scrollbar {
+    width: 5%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-track:hover{
+    background:#f1f1f1c4;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
