@@ -160,9 +160,9 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-section .spin::after{
-    content: "";
-}
+/* section .spin::after{
+    content-visibility: none;
+} */
 .about .title::after{
     content: "who i am";
 }
@@ -364,11 +364,17 @@ section .spin::after{
 
   /* loader*/
   /* From uiverse.io by @AqFox */
+.spin{
+    margin: auto;
+  width: 50%;
+  padding: 100px;
+}
 .spinner {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     animation: spinner-y0fdc1 20s infinite ease;
     transform-style: preserve-3d;
+    align-self: center;
    }
    
    .spinner > div {
