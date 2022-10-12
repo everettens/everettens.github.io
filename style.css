@@ -158,6 +158,9 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+section .spin::after{
+    content: "";
+}
 .about .title::after{
     content: "who i am";
 }
@@ -213,9 +216,9 @@ section .title::after{
 }
 
 /* Skills styling*/
-.skills{
+/* .skills{
 
-}
+} */
 
 /*responsive media query*/
 @media (max-width: 1330px){
@@ -355,3 +358,63 @@ section .title::after{
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+
+  /* loader*/
+  /* From uiverse.io by @AqFox */
+.spinner {
+    width: 30px;
+    height: 30px;
+    animation: spinner-y0fdc1 20s infinite ease;
+    transform-style: preserve-3d;
+   }
+   
+   .spinner > div {
+    background-color: rgba(255, 64, 64, 0.317);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border: 5px solid #ffffff;
+   }
+   
+   .spinner div:nth-of-type(1) {
+    transform: translateZ(-15px) rotateY(180deg);
+   }
+   
+   .spinner div:nth-of-type(2) {
+    transform: rotateY(-270deg) translateX(50%);
+    transform-origin: top right;
+   }
+   
+   .spinner div:nth-of-type(3) {
+    transform: rotateY(270deg) translateX(-50%);
+    transform-origin: center left;
+   }
+   
+   .spinner div:nth-of-type(4) {
+    transform: rotateX(90deg) translateY(-50%);
+    transform-origin: top center;
+   }
+   
+   .spinner div:nth-of-type(5) {
+    transform: rotateX(-90deg) translateY(50%);
+    transform-origin: bottom center;
+   }
+   
+   .spinner div:nth-of-type(6) {
+    transform: translateZ(15px);
+   }
+   
+   @keyframes spinner-y0fdc1 {
+    0% {
+     transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+    }
+   
+    50% {
+     transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+    }
+   
+    100% {
+     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+    }
+   }
