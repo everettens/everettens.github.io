@@ -75,6 +75,8 @@
 .home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     color: white;
     min-height: 500px;
