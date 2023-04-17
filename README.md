@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nathan Everette</h1>
 <h3 align="center">A senior CS student @ College of Charleston</h3>
 
-- 🔭 I’m currently working on [my CofC Capstone Project](https://github.com/everettens/ZuoraSalesforceIntegration)
+- 🔭 I’m currently working on [my CofC Capstone Project](https://github.com/everettens/Capstone2023-Zuora-Salesforce-Integration)
 
 - 🌱 I’m currently learning **Salesforce APEX, Postman, RESTful API,**
 
